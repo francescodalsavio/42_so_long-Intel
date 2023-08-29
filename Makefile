@@ -8,17 +8,8 @@ map_checker.c
 
 SRCS = $(addprefix $(SRCS_DIR), $(SRC))
 FLAGS = -Wall -Werror -Wextra
-
-MLX_MAC = -Lminilibx -lmlx -framework -framework AppKit
-
 LIBRARY := -lmlx -framework OpenGL -framework AppKit
 MINILIBX := ./lib/minilibx_mms_20200219/
-
-GFLAGS = -framework OpenGL -framework Appkit -l z
-GPATH = ./lib/minilibx_mms_20200219
-MLX_PATH = $(GPATH)/libmlx.dylib
-
-
 BUILD_DIR = ./build
 BIN_DIR = ./bin
 OBJS = $(addprefix $(BUILD_DIR)/, $(SRC:.c=.o))
