@@ -23,7 +23,7 @@ $(NAME): $(OBJS)
 
 $(BUILD_DIR)/%.o: $(SRCS_DIR)%.c
 	mkdir -p $(dir $@)
-	#gcc $(FLAGS) -c $< -o $@
+	gcc $(FLAGS) -c $< -o $@
 	gcc -c $< -o $@
 
 clean:

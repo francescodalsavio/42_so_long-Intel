@@ -6,7 +6,7 @@
 /*   By: frdal-sa <frdal-sa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/26 15:56:59 by gvigilan          #+#    #+#             */
-/*   Updated: 2023/08/29 11:15:40 by frdal-sa         ###   ########.fr       */
+/*   Updated: 2023/08/29 11:25:51 by frdal-sa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 # include <fcntl.h>
 # include <string.h>
 # include <limits.h>
-# include "../lib/minilibx_opengl_20191021/mlx.h"
+# include "../lib/minilibx_mms_20200219/mlx.h"
 # define SCREEN_WIDTH 500	
 # define SCREEN_HEIGHT 500
 # define BUFFER_SIZE 1
